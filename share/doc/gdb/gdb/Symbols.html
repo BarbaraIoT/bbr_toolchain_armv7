@@ -540,22 +540,33 @@ entered from the keyboard causes symbol information to be loaded.
 <a name="index-maint-print-msymbols"></a>
 <a name="index-minimal-symbol-dump"></a>
 </dd>
-<dt><code>maint print symbols <var>filename</var></code></dt>
-<dt><code>maint print psymbols <var>filename</var></code></dt>
-<dt><code>maint print msymbols <var>filename</var></code></dt>
-<dd><p>Write a dump of debugging symbol data into the file <var>filename</var>.
-These commands are used to debug the <small>GDB</small> symbol-reading code.  Only
-symbols with debugging data are included.  If you use &lsquo;<samp>maint print
-symbols</samp>&rsquo;, <small>GDB</small> includes all the symbols for which it has already
-collected full details: that is, <var>filename</var> reflects symbols for
-only those files whose symbols <small>GDB</small> has read.  You can use the
-command <code>info sources</code> to find out which files these are.  If you
-use &lsquo;<samp>maint print psymbols</samp>&rsquo; instead, the dump shows information about
-symbols that <small>GDB</small> only knows partially&mdash;that is, symbols defined in
-files that <small>GDB</small> has skimmed, but not yet read completely.  Finally,
-&lsquo;<samp>maint print msymbols</samp>&rsquo; dumps just the minimal symbol information
-required for each object file from which <small>GDB</small> has read some symbols.
-See <a href="Files.html#Files">Commands to Specify Files</a>, for a discussion of how
+<dt><code>maint print symbols <span class="roman">[</span>-pc <var>address</var><span class="roman">]</span> <span class="roman">[</span><var>filename</var><span class="roman">]</span></code></dt>
+<dt><code>maint print symbols <span class="roman">[</span>-objfile <var>objfile</var><span class="roman">]</span> <span class="roman">[</span>-source <var>source</var><span class="roman">]</span> <span class="roman">[</span>--<span class="roman">]</span> <span class="roman">[</span><var>filename</var><span class="roman">]</span></code></dt>
+<dt><code>maint print psymbols <span class="roman">[</span>-objfile <var>objfile</var><span class="roman">]</span> <span class="roman">[</span>-pc <var>address</var><span class="roman">]</span> <span class="roman">[</span>--<span class="roman">]</span> <span class="roman">[</span><var>filename</var><span class="roman">]</span></code></dt>
+<dt><code>maint print psymbols <span class="roman">[</span>-objfile <var>objfile</var><span class="roman">]</span> <span class="roman">[</span>-source <var>source</var><span class="roman">]</span> <span class="roman">[</span>--<span class="roman">]</span> <span class="roman">[</span><var>filename</var><span class="roman">]</span></code></dt>
+<dt><code>maint print msymbols <span class="roman">[</span>-objfile <var>objfile</var><span class="roman">]</span> <span class="roman">[</span>--<span class="roman">]</span> <span class="roman">[</span><var>filename</var><span class="roman">]</span></code></dt>
+<dd><p>Write a dump of debugging symbol data into the file <var>filename</var> or
+the terminal if <var>filename</var> is unspecified.
+If <code>-objfile <var>objfile</var></code> is specified, only dump symbols for
+that objfile.
+If <code>-pc <var>address</var></code> is specified, only dump symbols for the file
+with code at that address.  Note that <var>address</var> may be a symbol like
+<code>main</code>.
+If <code>-source <var>source</var></code> is specified, only dump symbols for that
+source file.
+</p>
+<p>These commands are used to debug the <small>GDB</small> symbol-reading code.
+These commands do not modify internal <small>GDB</small> state, therefore
+&lsquo;<samp>maint print symbols</samp>&rsquo; will only print symbols for already expanded symbol
+tables.
+You can use the command <code>info sources</code> to find out which files these are.
+If you use &lsquo;<samp>maint print psymbols</samp>&rsquo; instead, the dump shows information
+about symbols that <small>GDB</small> only knows partially&mdash;that is, symbols
+defined in files that <small>GDB</small> has skimmed, but not yet read completely.
+Finally, &lsquo;<samp>maint print msymbols</samp>&rsquo; just dumps &ldquo;minimal symbols&rdquo;, e.g.,
+&ldquo;ELF symbols&rdquo;.
+</p>
+<p>See <a href="Files.html#Files">Commands to Specify Files</a>, for a discussion of how
 <small>GDB</small> reads symbols (in the description of <code>symbol-file</code>).
 </p>
 <a name="index-maint-info-symtabs"></a>

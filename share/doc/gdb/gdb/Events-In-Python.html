@@ -150,7 +150,7 @@ has returned.  (The exit code could be unavailable if, for example,
 the attribute does not exist.
 </p></dd></dl>
 <dl>
-<dt><a name="index-ExitedEvent"></a>Variable: <strong>ExitedEvent</strong> <em>inferior</em></dt>
+<dt><a name="index-ExitedEvent_002einferior"></a>Variable: <strong>ExitedEvent.inferior</strong></dt>
 <dd><p>A reference to the inferior which triggered the <code>exited</code> event.
 </p></dd></dl>
 
@@ -294,6 +294,11 @@ is passed is the <code>gdb.Breakpoint</code> object.  When this event is
 emitted, the <code>gdb.Breakpoint</code> object will already be in its
 invalid state; that is, the <code>is_valid</code> method will return
 <code>False</code>.
+</p>
+</dd>
+<dt><code>events.before_prompt</code></dt>
+<dd><p>This event carries no payload.  It is emitted each time <small>GDB</small>
+presents a prompt to the user.
 </p>
 </dd>
 </dl>
