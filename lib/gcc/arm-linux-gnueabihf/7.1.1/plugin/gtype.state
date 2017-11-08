@@ -5,7 +5,7 @@
 ;;; This file should be parsed by the same gengtype which wrote it.
 
 (!version  "7.1.1 20170707")
-(!srcdir  "/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc")
+(!srcdir  "/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc")
 (!languages 10 ada brig c cp fortran go jit lto objc objcp)
 (!fileslist 204
  (!srcfile 1023  "../libcpp/include/line-map.h")
@@ -462,11 +462,11 @@
                    (!srcfileloc  "tree-core.h" 916)
                    nil )
                   (!pair  "u"
-                   (!type union 25 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-core.h:918"
+                   (!type union 25 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-core.h:918"
                     (!srcfileloc  "tree-core.h" 985)
                     (!fields 6 
                      (!pair  "bits"
-                      (!type struct 26 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-core.h:921"
+                      (!type struct 26 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-core.h:921"
                        (!srcfileloc  "tree-core.h" 944)
                        (!fields 16 
                         (!pair  "lang_flag_0"
@@ -538,7 +538,7 @@
                       (!srcfileloc  "tree-core.h" 944)
                       nil )
                      (!pair  "int_length"
-                      (!type struct 27 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-core.h:951"
+                      (!type struct 27 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-core.h:951"
                        (!srcfileloc  "tree-core.h" 965)
                        (!fields 3 
                         (!pair  "unextended"
@@ -570,7 +570,7 @@
                       (!srcfileloc  "tree-core.h" 974)
                       nil )
                      (!pair  "dependence_info"
-                      (!type struct 28 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-core.h:981"
+                      (!type struct 28 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-core.h:981"
                        (!srcfileloc  "tree-core.h" 984)
                        (!fields 2 
                         (!pair  "clique"
@@ -2323,7 +2323,7 @@
                        (!srcfileloc  "rtl.h" 395)
                        nil )
                       (!pair  "u2"
-                       (!type union 131 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/rtl.h:397"
+                       (!type union 131 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/rtl.h:397"
                         (!srcfileloc  "rtl.h" 418)
                         (!fields 5 
                          (!pair  "original_regno"
@@ -6436,7 +6436,7 @@
                                     )
                                    )
                                    (!pair  "x"
-                                    (!type struct 317 nil  gc_used "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/basic-block.h:140"
+                                    (!type struct 317 nil  gc_used "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/basic-block.h:140"
                                      (!srcfileloc  "basic-block.h" 143)
                                      (!fields 2 
                                       (!pair  "head_"
@@ -8799,7 +8799,7 @@
                                    (!srcfileloc  "dwarf2out.h" 57)
                                    nil )
                                   (!pair  "dw_cfi_oprnd1"
-                                   (!type union 445 nil  gc_used "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/dwarf2out.h:49"
+                                   (!type union 445 nil  gc_used "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/dwarf2out.h:49"
                                     (!srcfileloc  "dwarf2out.h" 54)
                                     (!fields 4 
                                      (!pair  "dw_cfi_reg_num"
@@ -9400,7 +9400,7 @@
                                                    (!srcfileloc  "dwarf2out.h" 181)
                                                    nil )
                                                   (!pair  "v"
-                                                   (!type union 478 nil  gc_used "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/dwarf2out.h:183"
+                                                   (!type union 478 nil  gc_used "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/dwarf2out.h:183"
                                                     (!srcfileloc  "dwarf2out.h" 186)
                                                     (!fields 2 
                                                      (!pair  "sval"
@@ -10863,7 +10863,7 @@
                       )
                      )
                      (!pair  "loc"
-                      (!type union 530 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-core.h:1397"
+                      (!type union 530 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-core.h:1397"
                        (!srcfileloc  "tree-core.h" 1397)
                        (!fields 2 
                         (!pair  "stmt"
@@ -12621,7 +12621,7 @@
                             (!srcfileloc  "c/c-decl.c" 198)
                             (!fields 11 
                              (!pair  "u"
-                              (!type union 605 nil  gc_used "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/c/c-decl.c:184"
+                              (!type union 605 nil  gc_used "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/c/c-decl.c:184"
                                (!srcfileloc  "c/c-decl.c" 187)
                                (!fields 2 
                                 (!pair  "type"
@@ -13910,7 +13910,7 @@
   )
   nil 1023 nil nil )
  
- (!type struct 659 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/../libcpp/include/line-map.h:1242"nil 
+ (!type struct 659 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/../libcpp/include/line-map.h:1242"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -13996,11 +13996,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 676 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/../libcpp/include/cpplib.h:1113"nil 
+ (!type struct 676 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/../libcpp/include/cpplib.h:1113"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 677 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/../libcpp/include/cpplib.h:1124"nil 
+ (!type struct 677 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/../libcpp/include/cpplib.h:1124"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -14381,7 +14381,7 @@
     (!srcfileloc  "gimple.h" 359)
     nil )
    (!pair  "u"
-    (!type union 721 nil  gc_used "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/gimple.h:362"
+    (!type union 721 nil  gc_used "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/gimple.h:362"
      (!srcfileloc  "gimple.h" 365)
      (!fields 2 
       (!pair  "fntype"
@@ -15019,7 +15019,7 @@
  
  (!type already_seen 434)
  
- (!type struct 770 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/config/arm/arm.h:1455"nil 
+ (!type struct 770 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/config/arm/arm.h:1455"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -20575,7 +20575,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1262 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/mcf.c:343"nil 
+ (!type union 1262 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/mcf.c:343"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -20967,7 +20967,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1318 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-eh.c:49"nil 
+ (!type union 1318 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/tree-eh.c:49"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -21319,11 +21319,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1384 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/config/arm/arm.c:2352"nil 
+ (!type struct 1384 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/config/arm/arm.c:2352"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1385 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/config/arm/arm.c:3658"nil 
+ (!type struct 1385 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/config/arm/arm.c:3658"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -22115,7 +22115,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1513 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/config/arm/arm-builtins.c:278"nil 
+ (!type struct 1513 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/config/arm/arm-builtins.c:278"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -22252,7 +22252,7 @@
   )
  )
  
- (!type struct 1538 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/ada/gcc-interface/decl.c:246"nil 
+ (!type struct 1538 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/ada/gcc-interface/decl.c:246"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -23000,7 +23000,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1616 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/c/c-parser.c:6645"nil 
+ (!type struct 1616 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/c/c-parser.c:6645"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -24805,7 +24805,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1779 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/fortran/trans.h:33"nil 
+ (!type struct 1779 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/fortran/trans.h:33"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -24829,11 +24829,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1785 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/fortran/trans.h:389"nil 
+ (!type struct 1785 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/fortran/trans.h:389"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1786 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/fortran/trans.h:401"nil 
+ (!type struct 1786 nil  gc_unused "anonymous:/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.1-2017.08/gcc/fortran/trans.h:401"nil 
   (!fields 0 )
   nil 0 nil nil )
  

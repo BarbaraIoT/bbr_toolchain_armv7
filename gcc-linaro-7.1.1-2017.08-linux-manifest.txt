@@ -122,16 +122,16 @@ manifestid=03092427e67dbb59e483be8405f58f4bf7e64552
 
 # Build machine data
 build: linux
-host: i686-pc-linux-gnu
+host: x86_64-unknown-linux-gnu
 kernel: 4.4.0-45-generic
-hostname: 742eceaed3a5
+hostname: 72edb854a3e6
 distribution: trusty
 host_gcc: gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 
 # These aren't used in the repeat build. just a sanity check for developers
-build directory: /home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds
-sysroot directory: /home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/sysroots/arm-linux-gnueabihf
-snapshots directory: /home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots
+build directory: /home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds
+sysroot directory: /home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/sysroots/arm-linux-gnueabihf
+snapshots directory: /home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots
 git reference directory: /home/tcwg-buildslave/snapshots-ref
 
 abe_url=https://git-us.linaro.org/toolchain

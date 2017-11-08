@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/i686-pc-linux-gnu/share/gcc-7.1.1/python'
-libdir = '/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/i386/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/i686-pc-linux-gnu/arm-linux-gnueabihf/lib'
+pythondir = '/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu/share/gcc-7.1.1/python'
+libdir = '/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/lib'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't
